@@ -15,11 +15,11 @@ public class Springbootdemo2Application {
 //		Alien obj=new Alien();
 //		obj.code();
 
-//		Alien obj=context.getBean(Alien.class);
-//		obj.code();
+		Alien obj=context.getBean(Alien.class);
+		obj.code();
 
-		Laptop lap=context.getBean(Laptop.class);
-		lap.compile();
+//		Laptop lap=context.getBean(Laptop.class);
+//		lap.compile();
 
 		;
 
